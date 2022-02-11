@@ -151,11 +151,11 @@ function NewDogForm(props) {
                         </Col>
                     </Form.Group>
                     <Form.Group as={Row} className='mb-3' controlId='exampleForm.ControlTextarea1'>
-                        <Form.Label column sm={2}>Description</Form.Label>
+                        <Form.Label column sm={2}>Info</Form.Label>
                             <Col sm={10}>
                                 <Form.Control 
                                 as='textarea' rows={3}
-                                placeholder='Description' 
+                                placeholder='Info' 
                                 required 
                                 name='description'
                                 id='description'
